@@ -15,14 +15,14 @@ namespace Thailand.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "2016 News about the Foundation";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Pop Up at Bliss 3 - Saturday 6 May 2017";
 
             return View();
         }
