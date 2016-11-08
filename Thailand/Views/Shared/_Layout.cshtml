@@ -17,7 +17,7 @@
                 <img class="img-responsive img-center img-skew-right " src="~/Images/PhuketLogo.png" alt="">
             </div>
 
-            <div class="nav text-center">
+            <div class="nav text-left">
                 <ul style="list-style: none;    -webkit-padding-start: 0px;">
                     <li>
 
@@ -31,7 +31,7 @@
                             </button>
                             @Html.ActionLink(" ", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
                         </div>
-                        <div class="navbar-collapse collapse">
+                        <div class="nav navbar-collapse nav-pills nav-stacked collapse">
                             <ul class="text-center nav navbar-nav">
                                 <li>@Html.ActionLink("Home", "Index", "Home")</li>
                                 <li>@Html.ActionLink("News", "About", "Home")</li>
@@ -53,7 +53,7 @@
     </div> <!-- .main-menu -->
 </div>
 
-<div class="container body-content">
+<div class="body-content">
     @RenderBody()
     <hr />
     <footer>
